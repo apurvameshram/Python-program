@@ -1,8 +1,8 @@
-# Python-program to count frquency of words in a file showing in the bar graph!
+# Python-program to count frequency of words in a file showing in the bar graph!
 import numpy as np
 import matplotlib.pyplot as plt
 def print_words(filename):
-    f = open("article.py",'r')
+    f = open(filename,'r')
     full_list = (f.read()).lower()
     print full_list
     list_content = full_list.split()
